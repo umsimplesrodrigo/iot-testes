@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 body {
     background-color: #161222;
     font-family: "Press Start 2P", system-ui;
